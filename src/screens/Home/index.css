@@ -1,0 +1,16 @@
+.presentationContainer {
+    margin-top: 20px;
+}
+
+
+.presentation {
+    display: flex;
+    justify-content: center;
+}
+
+.presentationText {
+    margin-left: 20px;
+    max-width: 600px;
+    text-align: justify;
+    font-family: 'Rajdhani', sans-serif;
+}

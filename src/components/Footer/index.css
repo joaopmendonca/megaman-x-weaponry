@@ -1,0 +1,9 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #003366;
+    font-family: 'Rajdhani', sans-serif;
+    align-items: center;
+    line-height: 10px;
+    font-size: 1.4rem;
+}

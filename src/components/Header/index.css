@@ -1,0 +1,40 @@
+Header {
+    background-color: #6FA1E8;
+    padding: 10px 0 10px 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.headerContent{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.headerContainer nav {
+    display: flex;
+    flex-grow: 1;
+}
+
+.headerMenu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.headerMenu a {
+    text-decoration: none;
+    color: #d8ebfc;
+    list-style-type: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    /* ou 300 ou 700, conforme necessário */
+    font-size: 25px;
+    /* Tamanho da fonte, conforme necessário */
+}
