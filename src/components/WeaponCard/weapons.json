@@ -1,66 +1,92 @@
 [
     {
       "nome": "X-Buster",
+      "game": "All",
       "imagem": "xbuster.jpg",
       "chefeDonoDaArma": "Chill Penguin",
       "fraquezaArma": "N/A",
-      "descricao": "A arma inicial de X, um canhão de energia que pode ser carregado para disparar tiros mais poderosos."
+      "descricao": "A arma inicial de X, um canhão de energia que pode ser carregado para disparar tiros mais poderosos.",
+      "backgroundColor": "#2979FF"
     },
     {
       "nome": "Chameleon Sting",
+      "game": "Mega Man X",
       "imagem": "chameleonsting.jpg",
       "chefeDonoDaArma": "Sting Chameleon",
       "fraquezaArma": "Storm Eagle",
-      "descricao": "Uma arma de disparo de língua que pode ser usada para atacar inimigos e revelar itens escondidos."
+      "descricao": "Uma arma de disparo de língua que pode ser usada para atacar inimigos e revelar itens escondidos.",
+      "backgroundColor": "#87C764"
+
     },
     {
       "nome": "Storm Tornado",
+      "game": "Mega Man X",
       "imagem": "stormtornado.jpg",
       "chefeDonoDaArma": "Storm Eagle",
       "fraquezaArma": "Spark Mandrill",
-      "descricao": "Gera um tornado poderoso que causa danos aos inimigos em seu caminho."
+      "descricao": "Gera um tornado poderoso que causa danos aos inimigos em seu caminho.",
+      "backgroundColor": "#4D82B8"
+
     },
     {
       "nome": "Fire Wave",
+      "game": "Mega Man X",
       "imagem": "firewave.jpg",
       "chefeDonoDaArma": "Flame Mammoth",
       "fraquezaArma": "Sting Chameleon",
-      "descricao": "Dispara uma onda de fogo que queima os inimigos em seu caminho."
+      "descricao": "Dispara uma onda de fogo que queima os inimigos em seu caminho.",
+      "backgroundColor": "#FFA34D"
+
     },
     {
       "nome": "Rolling Shield",
+      "game": "Mega Man X",
       "imagem": "rollingshield.jpg",
       "chefeDonoDaArma": "Armored Armadillo",
       "fraquezaArma": "Spark Mandrill",
-      "descricao": "Cria um escudo circular que pode ser arremessado contra inimigos."
+      "descricao": "Cria um escudo circular que pode ser arremessado contra inimigos.",
+      "backgroundColor": "#B2B2B2"
+
     },
     {
       "nome": "Homing Torpedo",
+      "game": "Mega Man X",
       "imagem": "homingtorpedo.jpg",
       "chefeDonoDaArma": "Launch Octopus",
       "fraquezaArma": "Boomer Kuwanger",
-      "descricao": "Lança torpedos teleguiados que perseguem inimigos."
+      "descricao": "Lança torpedos teleguiados que perseguem inimigos.",
+      "backgroundColor": "#FED93E"
+
     },
     {
       "nome": "Boomerang Cutter",
+      "game": "Mega Man X",
       "imagem": "boomerangcutter.jpg",
       "chefeDonoDaArma": "Boomer Kuwanger",
       "fraquezaArma": "Sting Chameleon",
-      "descricao": "Atira lâminas afiadas em um padrão de bumerangue."
+      "descricao": "Atira lâminas afiadas em um padrão de bumerangue.",
+      "backgroundColor": "#FF6C6C"
+
     },
     {
       "nome": "Shotgun Ice",
+      "game": "Mega Man X",
       "imagem": "shotgunice.jpg",
       "chefeDonoDaArma": "Chill Penguin",
       "fraquezaArma": "Flame Mammoth",
-      "descricao": "Dispara projéteis de gelo que se dividem em múltiplas direções."
+      "descricao": "Dispara projéteis de gelo que se dividem em múltiplas direções.",
+      "backgroundColor": "#A3D7FF"
+
     },
     {
       "nome": "Electric Spark",
+      "game": "Mega Man X",
       "imagem": "electricspark.jpg",
       "chefeDonoDaArma": "Spark Mandrill",
       "fraquezaArma": "Launch Octopus",
-      "descricao": "Lança uma faísca elétrica mortal que pode destruir inimigos."
+      "descricao": "Lança uma faísca elétrica mortal que pode destruir inimigos.",
+      "backgroundColor": "#A460FF"
+
     }
   ]
   

@@ -22,7 +22,7 @@ function Header() {
             </a>
           </ul>
         </nav>
-        <CustomTextButton buttonText="Botão Padrão" />
+        <CustomTextButton buttonText="Login" backgroundColor="#2979FF" />
       </div>
     </div>
   );

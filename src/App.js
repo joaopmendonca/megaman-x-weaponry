@@ -1,7 +1,7 @@
 import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Home from "./screens/Home";
+import WeaponForm from "../src/screens/WeaponForm";
 
 // Importe a fonte diretamente no componente Header
 function App() {
@@ -12,7 +12,7 @@ function App() {
       </header>
 
       <main>
-        <Home />
+        <WeaponForm />
       </main>
 
       <footer>
