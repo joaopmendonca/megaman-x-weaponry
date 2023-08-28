@@ -1,60 +1,37 @@
-/* Estilo para o formulário de adição de arma */
+/* Alinhar o container verticalmente e centralizar horizontalmente */
+.formContainer {
+  background-color: rgba(248, 248, 248, 0.495);
+  width: 40%;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 40px auto; /* Adicione esta linha para centralizar horizontalmente */
+}
 
-.form-container {
-    background-color: #f5f5f5;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    max-width: 1200px;
-    margin: 20px auto;
-  }
-  
-  h1{
-    text-align: center;
-    font-family: 'Rajdhani', sans-serif;
-  }
+h1{
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+}
 
-  .weapon-form {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Rajdhani', sans-serif;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  .form-control {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  textarea.form-control {
-    resize: vertical;
-    min-height: 100px;
-  }
-  
-  .btn-submit {
-    background-color: #6FA1E8;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn-submit:hover {
-    background-color: #4c82c8;
-  }
-  
+.formField {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Rajdhani', sans-serif;
+  width: 100%;
+}
+
+.formInput {
+  height: 40px;
+  border-width: 0;
+}
+
+.formTextarea {
+  height: 100px;
+  border-width: 0;
+}
+
+.button {
+  margin: 15px 0 20px 0;
+}

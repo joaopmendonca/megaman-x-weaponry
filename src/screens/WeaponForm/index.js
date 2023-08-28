@@ -1,121 +1,43 @@
-import React, { useState } from "react";
-import "./index.css"; // Importe o arquivo de estilos
+import React from "react";
+import CustomTextButton from "../../components/CustomTextButton";
+
+import "./index.css";
 
 function WeaponForm() {
-  const [formData, setFormData] = useState({
-    nome: "",
-    game: "",
-    imagem: "",
-    chefeDonoDaArma: "",
-    fraquezaArma: "",
-    descricao: "",
-    backgroundColor: "#6FA1E8", // Cor padrão
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    // Lógica de validação (opcional)
-    if (!formData.nome) {
-      alert("Por favor, preencha o nome da arma.");
-      return;
-    }
-
-    // Aqui você pode lidar com o envio dos dados do formulário
-    // Por exemplo, você pode enviar os dados para uma API ou atualizar o estado da sua aplicação
-    console.log("Dados do formulário a serem enviados:", formData);
-
-    // Limpar o formulário
-    setFormData({
-      nome: "",
-      game: "",
-      imagem: "",
-      chefeDonoDaArma: "",
-      fraquezaArma: "",
-      descricao: "",
-      backgroundColor: "#6FA1E8", // Cor padrão
-    });
-  };
-
   return (
-    <div className="form-container">
-      <h1>Adicionar Nova Arma</h1>
-      <form onSubmit={handleSubmit} className="weapon-form">
-        <div className="form-group">
-          <label htmlFor="nome">Nome:</label>
-          <input
-            type="text"
-            id="nome"
-            name="nome"
-            value={formData.nome}
-            onChange={handleChange}
-            className="form-control"
-          />
+    <div className="weaponForm">
+      <h1 className="formTitle">Preencha com os dados da Arma</h1>
+      <form className="formContainer">
+        <div className="formField">
+          <label className="formLabel">Nome</label>
+          <input className="formInput" type="text" />
         </div>
-        <div className="form-group">
-          <label htmlFor="game">Game:</label>
-          <input
-            type="text"
-            id="game"
-            name="game"
-            value={formData.game}
-            onChange={handleChange}
-            className="form-control"
-          />
+        <div className="formField">
+          <label className="formLabel">Game</label>
+          <input className="formInput" type="text" />
         </div>
-        <div className="form-group">
-          <label htmlFor="imagem">Imagem:</label>
-          <input
-            type="text"
-            id="imagem"
-            name="imagem"
-            value={formData.imagem}
-            onChange={handleChange}
-            className="form-control"
-          />
+        <div className="formField">
+          <label className="formLabel">Imagem</label>
+          <input className="formInput" type="text" />
         </div>
-        <div className="form-group">
-          <label htmlFor="chefeDonoDaArma">Chefe Dono da Arma:</label>
-          <input
-            type="text"
-            id="chefeDonoDaArma"
-            name="chefeDonoDaArma"
-            value={formData.chefeDonoDaArma}
-            onChange={handleChange}
-            className="form-control"
-          />
+        <div className="formField">
+          <label className="formLabel">Chefe Dono Da Arma</label>
+          <input className="formInput" type="text" />
         </div>
-        <div className="form-group">
-          <label htmlFor="fraquezaArma">Fraqueza da Arma:</label>
-          <input
-            type="text"
-            id="fraquezaArma"
-            name="fraquezaArma"
-            value={formData.fraquezaArma}
-            onChange={handleChange}
-            className="form-control"
-          />
+        <div className="formField">
+          <label className="formLabel">Fraqueza da Arma</label>
+          <input className="formInput" type="text" />
         </div>
-        <div className="form-group">
-          <label htmlFor="descricao">Descrição:</label>
-          <textarea
-            id="descricao"
-            name="descricao"
-            value={formData.descricao}
-            onChange={handleChange}
-            className="form-control"
-          />
+        <div className="formField">
+          <label className="formLabel">Descrição</label>
+          <textarea className="formTextarea"></textarea>
         </div>
-        <div className="form-group">
-          <button type="submit" className="btn-submit">Adicionar Arma</button>
+        <div className="formField">
+          <label className="formLabel">Background Color</label>
+          <input className="formInput" type="text" />
+        </div>
+        <div className="button">
+          <CustomTextButton buttonText="Cadastrar Arma" backgroundColor="#2979FF" />
         </div>
       </form>
     </div>
