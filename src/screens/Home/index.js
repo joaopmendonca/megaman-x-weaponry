@@ -2,7 +2,7 @@ import React from "react";
 import Banner from "../../components/Banner";
 import "./index.css";
 import CardContainer from "../../components/CardContainer";
-import weaponsData from "../../components/WeaponCard/weapons.json"; // Importe o arquivo JSON com os dados das armas
+import weaponsData from "../../components/WeaponCard/weaponData.json"; // Importe o arquivo JSON com os dados das armas
 
 function Home() {
   return (
